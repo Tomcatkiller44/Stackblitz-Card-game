@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Swords, Heart, Zap, Shield } from 'lucide-svelte';
-  export const screen: string = '';
+
   export let onStart: () => void;
 </script>
 

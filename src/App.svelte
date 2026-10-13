@@ -8,7 +8,7 @@
 </script>
 
 {#if $screen === 'start'}
-  <StartScreen screen={$screen} onStart={() => screen.set('battle')} />
+  <StartScreen onStart={() => screen.set('battle')} />
 {:else}
   <BattleScene />
 {/if}
